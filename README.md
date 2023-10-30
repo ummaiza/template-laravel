@@ -23,7 +23,9 @@ Selanjutnya jalankan
 ```bash
   php artisan serve
 ```
-
+```bash
+  127.0.0.1:8000/login
+```
 ## User default
 
 ####
