@@ -8,9 +8,12 @@ Template sdh ada Login
 ## Installation
 
 To deploy this project run
-
 ```bash
   git clone https://github.com/ummaiza/template-laravel.git
+```
+
+```bash
+  composer install
 ```
 ```bash
   php artisan migrate --seed
