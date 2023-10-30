@@ -21,7 +21,13 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
-Route::get("/home", [HomeController::class,"index"])->name("home");
+Route::get("/", [HomeController::class,"index"]);
+Route::get("/about", [HomeController::class,"about"]);
+Route::get("/alumni", [HomeController::class,"alumni"]);
+Route::get("/contact", [HomeController::class,"contact"]);
+Route::get("/mahasiswa", [HomeController::class,"mahasiswa"]);
+Route::get("/profil", [HomeController::class,"profil"]);
+Route::get("/services", [HomeController::class,"services"]);
 
 //auth
 Route::get("/login", [AuthController::class,"login"])->name('login');
