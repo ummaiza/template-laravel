@@ -8,6 +8,6 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        echo "berhasil Login";
+        return view("pages.admin.index");
     }
 }
